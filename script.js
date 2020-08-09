@@ -1,6 +1,6 @@
 // Created by Gaurav //
 
-alert("Pls do not enter any punctuation marks or any space after the last letter. Click the help button on the top right corner to find out the questions you can ask. I was trying to use some API. Might be there in later update.");
+alert("Click the help button on the top right corner to find out the questions you can ask. I was trying to use some API. Might be there in later update and the Login criteria will not be saved, It's only temporary login Email is not Required at all");
 function clicked(){
 var ab= document.getElementById("ab").value
 var ac= document.getElementById("ac").value
