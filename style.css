@@ -1,0 +1,140 @@
+/* Created by Gaurav */
+
+body{
+    margin:0;
+    background:#212121;
+}
+#h1{
+    color: #222;
+    box-shadow:0 0 9px 0 #999;
+    font-size:30px;
+    padding:10px;
+    font-weight:bold;
+    background:white;
+    font-family:ubuntu;
+    margin-bottom:60px;
+}
+#on{
+    font-size:15px;
+    font-weight:normal; 
+    color:grey;
+    margin-left:5px;
+}
+#color{
+    height:10px;
+    width:10px;
+    background:#0f0;
+    display:inline-block ;
+    border-radius:50%;
+}
+#inp{
+    position:fixed;
+    bottom:0;
+    width:79%;
+    height:44px;
+    outline:none;
+}
+#add{
+    position:fixed;
+    bottom:0;
+    width:20%;
+    right:0;
+    height:50px;
+    border:none;
+    outline:none;
+    background:#9062fb;
+    font-size:25px;
+    color:white;
+}
+.a{
+    background:#ccc;
+    padding:5px;
+    width:200px;
+    border-radius:10px;
+    border-top-right-radius:0px;
+    font-size:15px;
+    overflow:scroll ;
+    margin-top:20px;
+    margin-bottom:60px;
+    margin-left:auto;
+    margin-right:5px;
+    margin-top:-40px;
+}
+.b{
+    background:#9062fb;
+    margin-left:65px;
+    margin-top:-25px;
+    color:white;
+    border-radius:10px;
+    border-top-left-radius:0px;
+    padding:5px;
+    width:200px;
+    font-size:15px;
+    overflow:scroll ;
+    margin-bottom:60px;
+}
+.c{
+    display:block ;
+    margin-right:auto ;
+    margin-left:auto ;
+    height:50%;
+    width:50%;
+}
+#help{
+    position:absolute;
+    top:0;
+    right:0;
+    height:25px;
+    width:25px;
+    background-color:#9062fb;
+    color:white;
+    outline:none;
+    border:1px solid #7034fa;
+}
+#j{
+    height:50px;
+    width:50px;
+    object-fit:cover;
+    margin-left:5px;
+    border-radius:50%;
+    margin-top:-40px;
+}
+#login{
+    height:100vh;
+    width:100vw;
+    text-align:center;
+    padding-top:150px;
+    position:fixed;
+    background:white;
+    z-index:1;
+}
+.lo{
+    padding:10px;  
+    border-radius:50px;
+    border:1px solid #ccc;
+    outline:none;
+    width:200px;
+}
+.lo:focus{
+    border-color:#0af;
+    color:#0af;
+}
+#bb{
+    padding:10px;
+    width:225px;
+    border-radius:50px;
+    color:white;
+    background:-webkit-linear-gradient(left,#0f0,#03bbf5);
+    outline:none;
+    border:none;
+}
+#del{
+    position:absolute;
+    top:0;
+    left:0;
+    border:none;
+    outline:none;
+    background:transparent ;
+    color:#9062fb;
+    font-size:25px;
+}
